@@ -1,6 +1,6 @@
 import type { Express } from "express";
 import { storage } from "./storage";
-import { insertPortfolioItemSchema } from "@shared/schema";
+import { insertPortfolioItemSchema } from "server/schema";
 
 export function registerPortfolioRoutes(app: Express) {
   // Get all portfolio items
