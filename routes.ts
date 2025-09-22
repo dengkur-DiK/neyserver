@@ -2,7 +2,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertContactSchema, insertBookingSchema, insertMessageSchema } from "server/schema";
+import { insertContactSchema, insertBookingSchema, insertMessageSchema } from "./schema";
 import { z } from "zod";
 import { registerPortfolioRoutes } from "./routes-portfolio";
 

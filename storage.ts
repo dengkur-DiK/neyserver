@@ -17,7 +17,7 @@ import {
   type UpdatePortfolioItem,
   type Message,
   type InsertMessage,
-} from "server/schema";
+} from "./schema";
 import { db } from "./db";
 import { eq } from "drizzle-orm";
 
